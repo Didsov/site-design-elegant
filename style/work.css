@@ -1,0 +1,46 @@
+
+.Title__Container{
+    max-width: 750px;
+    margin: 100px auto;
+    text-align: center;
+
+}
+
+.Work__Text{
+    color: #021725;
+    font-size: 14pt;
+}
+.SubTitle{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #d4af37;
+    text-transform: uppercase;
+
+}
+.Title{
+    font-size: 2.75rem;
+    color: rgba(2, 23, 37, 0.7);
+    font-weight: 600;
+    margin-bottom: 3rem;
+}
+.Work__items{
+    display: flex;
+    flex-direction: row;
+}
+.work__item, .work__item img{
+    flex: 1 1 25vw;
+}
+.work__item{
+    display: flex;
+    margin: 2px;
+}
+header{
+    height: 400px;
+    left: 0px;
+    top: 0;
+}
+main{
+    padding: 20px 0
+
+
+}

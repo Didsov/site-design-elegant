@@ -1,0 +1,28 @@
+@media (max-width: 750px){
+    .Contact__Header{
+        height: 100px;
+        background: none;
+    }
+    .Contact__Wrapper{
+        flex-direction: column;
+
+    }
+    .Contact__Square{
+        width: auto;
+        height: 50%;
+        max-height:50%;
+        margin: 0;
+    }
+    .Contact__Img{
+        width: auto;
+        width: 100%;
+        object-fit: cover;
+    }
+    .Contact__Content{
+        margin: 0 40px;
+    }
+    .Contact__BTN a{
+        font-weight: bold;
+    }
+
+}

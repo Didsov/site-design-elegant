@@ -1,0 +1,98 @@
+@media (max-width: 750px){
+    .headContainer{
+        background: url("../img/cd-intro background mobile.png") center/cover;
+
+    }
+
+    .SubTitle{
+        font-size: 24pt;
+    }
+    .Title{
+        font-size: 50pt;
+        line-height: 1;
+    }
+    .About__Text{
+        font-size: 16pt;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .About__Btn{
+        font-size: 20pt;
+    }
+    .About{
+        margin-top: 150px;
+        height: 100vh;
+    }
+    .Present__items{
+        flex-direction: column;
+    }
+    .present__item{
+        width: 100%;
+    }
+    .People{
+        margin-top: 150px;
+    }
+    .People__items{
+        flex-direction: column;
+    }
+    .People__item {
+        width: 100%;
+        max-width: 100%;
+    }
+    .People__name{
+        font-size: 30pt;
+    }
+    .People__desc{
+        font-size: 20pt;
+        line-height: 1.2;
+    }
+    .Last{
+        margin-top: 150px;
+    }
+    .Last__container{
+        flex-direction: column;
+
+    }
+    .Last__prev, .Last__img{
+        width: 100%;
+        max-width: 100%;
+
+    }
+    .Last__img{
+        text-align: center;
+    }
+    .Last__img img{
+        width: 90%;
+    }
+    .Last__subTitle{
+        font-size: 20pt;
+    }
+    .Last__title{
+        font-size: 50pt;
+        line-height: 1;
+        margin: 30px 0;
+    }
+    .Last__text{
+        font-size: 16pt;
+        line-height: 1.2;
+    }
+    .Contact__item{
+        margin: 0 auto;
+    }
+    .About__Btn{
+        font-size: 24pt;
+        padding: 20px 70px;
+    }
+    .Contact__title{
+        font-size: 24pt;
+        font-weight: bold;
+    }
+    .Contact__text{
+        font-size: 20pt;
+        text-align: center;
+        width: 100%;
+
+    }
+
+
+}

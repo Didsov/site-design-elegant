@@ -1,0 +1,34 @@
+@media (max-width: 750px) {
+    .About__Header{
+        justify-content: space-between;
+    }
+    .Wrapper__About{
+
+    }
+    .About__Text{
+        font-size: 1.5em;
+    }
+    .About__Service{
+        flex-direction: column;
+    }
+    .Service__Container{
+        flex-direction: column;
+    }
+    .Service__Container>*{
+        flex:0;
+        margin: 30px 30px;
+        font-size: 1.5em;
+        max-width: 90%;
+
+    }
+    .Service__Title{
+        font-size: 50pt;
+
+    }
+    .Service__Text{
+    }
+    .Service__List{
+
+
+    }
+}

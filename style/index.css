@@ -1,0 +1,207 @@
+main{
+    font-family: "Open Sans";
+    margin: 70px 0;
+}
+
+.About{
+ margin: 5rem 0 ;
+    
+}
+.About__container{
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0 0.9375rem;
+    text-align: center;
+    color: #021725;
+}
+.SubTitle{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #d4af37;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+.Title{
+    font-size: 2.75rem;
+    color: rgba(2, 23, 37, 0.7);
+    font-weight: 600;
+    margin-bottom: 3rem;
+    text-align: center;
+
+}
+.About__Text{
+    font-size: 1.125rem;
+    letter-spacing: 0.05em;
+    line-height: 2rem;
+    margin-bottom: 3.3rem;
+    
+}
+.Btn__container{
+    margin: 2rem 0 ;
+    text-align: center;
+
+}
+.About__Btn{
+    border: solid 1px black;
+    font-size: 0.875rem;
+    color: #021725;
+    line-height: 3rem;
+    padding: 1rem 3rem;
+
+
+}
+.left{
+    text-align: left;
+}
+
+.Present{
+    text-align: center;
+    margin: 5rem 0;
+}
+.Present__items{
+    width: 100vw;
+
+    display: flex;
+}
+.present__item{
+    width: 25vw;
+    margin: 1px;
+    padding: 1px;
+
+}
+.present__item img{
+    display: block;
+    width: 100%;
+}
+.People{
+    max-width: 50rem;
+    margin: 5rem auto;
+    padding: 3.125rem 0.9375rem;
+    text-align: center;
+}
+
+.People__items{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-top: 2rem;
+}
+.People__item{
+    max-width: 33.333%;
+    width: 100%;
+    font-family: 'Open Sans';
+    color: #021725;
+    margin: 0.0937rem;
+    text-align: left;
+
+
+
+}
+.People__photo{
+    width: 100%;
+    height: 0;
+    padding-bottom: 78.54%;
+}
+.People__photo img{
+    width: 100%;
+}
+.People__prof{
+    margin: 1.125rem;
+}
+.People__name{
+    padding-left: 1rem;
+    opacity: 0.7;
+    font-size: 1.312rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+}
+.People__desc{
+    margin: 2rem 0;
+    padding-left: 1rem;
+    font-size: 0.8125rem;
+    line-height: 1.437rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+
+}
+.Last{
+    margin: 5rem auto;
+    max-width: 50rem;
+    padding: 0 0.9375rem;
+}
+.Last__container{
+    display: flex;
+    flex-direction: row;
+}
+.Last__img{
+    max-width: 50%;
+}
+.Last__img img{
+    width: 100%;
+}
+.Last__prev{
+    max-width: 50%;
+    padding: 2.5rem 3.75rem 3.75rem 2.5rem;
+    color: #505d68;
+    text-align: left;
+    margin-bottom: 3.125rem;
+
+}
+.Last__subTitle{
+    font-size: 0.8125rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+.Last__title{
+    font-size: 1.875rem;
+    line-height: 3.75rem;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+}
+.Last__text{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 300;
+    letter-spacing: 0.05em;
+    margin-bottom: 3rem;
+}
+.Contact{
+    margin: 5rem auto;
+    max-width: 50rem;
+    padding: 0 0.9375rem;
+}
+.Contact__Map{
+    margin: 0 auto;
+}
+.Contact__Map img{
+    width: 100%;
+}
+.Contact__items{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+}
+.Contact__item{
+    width: 100%;
+    max-width: 15rem;
+    margin: 0 4.6875rem;
+    text-align: center;
+    color: #505d68;
+}
+.Contact__title{
+    font-size: 0.8125rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    margin: 2rem 0;
+}
+.Contact__text{
+    font-size: 1.1875rem;
+    font-weight: 300;
+    letter-spacing: 0.03em;
+    margin: 2rem 0;
+}
+
+

@@ -1,0 +1,22 @@
+@media (max-width: 750px){
+    .Work__Header{
+     height: 100px;
+     background: none;
+    }
+    .present__item{
+        width: 100%;
+    }
+    .Work__items{
+        display: flex;
+        flex-direction: column;
+    }
+    .work__item, .work__item img{
+        flex: 1 ;
+    }
+    .work__item{
+        display: flex;
+        margin: 2px;
+    }
+
+
+}

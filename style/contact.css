@@ -1,0 +1,110 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Open Sans";
+}
+.Contact__Header{
+    height: 100%;
+}
+.Contact__Title{
+    text-align: center;
+    margin: 80px 0;
+}
+.Contact__Title h1{
+    color: #021725;
+    opacity: 0.7;
+    font-size: 44pt;
+    font-weight: bold;
+}
+.Contact__Title h2{
+    color: #d4af37;
+    font-size: 13pt;
+}
+
+.Contact__Container{
+    display: flex;
+    flex-direction: column;
+
+}
+.Contact__Wrapper{
+    display: flex;
+    max-width: 770px;
+
+
+}
+.Contact__Img{
+    flex: 1 1 0;
+    width: 100%;
+}
+.Contact__Text{
+    background: #f9f9f9;
+    color: #323d43;
+    font-size: 16pt;
+}
+.Contact__Text p{
+    padding: 30px;
+}
+.Contact__Square{
+    flex: 0 0 300px;
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+.Contact__Square .Underline{
+    width: 40px;
+    height: 0px;
+    display: block;
+    margin: 30px;
+    border: 1px solid white;
+}
+.Contact__Square p{
+    margin: 0 30px;
+    font-size: 18pt;
+}
+.Text{
+    background: #d3b000;
+    margin-right: 5px;
+
+}
+.Phone{
+    margin-left: 5px;
+    background: #212121;
+}
+.Contact__BTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a1a1a1;
+    width: 100%;
+    max-width: 250px;
+    height: 60px;
+    margin: 80px 0;
+}
+.Contact__BTN a{
+    color:#021725;
+    font-size: 12pt;
+}
+body{
+    position: relative;
+}
+header{
+    height: 400px;
+}
+.headContainer{
+    height: 100%;
+}
+header{
+    height: 400px;
+    left: 0px;
+    top: 0;
+}
+main{
+    padding: 20px 0
+
+
+}

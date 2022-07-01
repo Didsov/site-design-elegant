@@ -1,0 +1,27 @@
+@media (max-width: 750px){
+    .Blog__Header{
+        height: 100px;
+        background: none;
+    }
+    .Blog__Container{
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .Blog__Aside{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 85%;
+        margin: 0;
+    }
+    .Aside_Block{
+        width: 100%;
+    }
+    .Projects li{
+        width: 100%;
+    }
+    .Projects img{
+        width: 100%;
+    }
+}

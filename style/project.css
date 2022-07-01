@@ -1,0 +1,67 @@
+.Project__Container{
+    display: flex;
+
+    max-width: 1050px;
+    background: #f9f9f9;
+    padding: 60px 50px;
+    margin: 80px auto;
+
+}
+.Project__Container>*{
+    margin: 0px 25px;
+}
+.Project__Main{
+    flex: 1;
+}
+.Project__Title{
+    margin-bottom: 60px;
+    font-family: "Open Sans";
+    font-weight: bold;
+}
+.Project__Text{
+    margin-bottom: 60px;
+    font-size: 16pt;
+    font-family: Cardo;
+}
+
+.Project__List{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Project__Img{
+    width: 100%;
+    margin: 5px 0;
+}
+.Project__Aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+    width: 300px;
+}
+.Project__Item{
+    width: 100%;
+}
+.Project__Item img{
+    width: 100%;
+}
+.Project__BTN__Container{
+    max-width: 1150px;
+    margin: 0 auto 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.Project__BTN{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #a1a1a1;
+    flex: 1;
+    max-width: 250px;
+    height: 60px;
+}
+.Project__BTN a{
+    color: #c0c0c0;
+
+}

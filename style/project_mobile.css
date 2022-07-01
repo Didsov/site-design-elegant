@@ -1,0 +1,23 @@
+@media (max-width: 750px){
+    .Project__Container{
+        flex-direction: column;
+    }
+    .Project__Aside{
+        width: 90%;
+        margin: 0 25px;
+        padding: 0;
+    }
+    .Project__List{
+        align-items: center;
+
+    }
+    .Project__Item {
+        width: 100%;
+    }
+     .Project__item img{
+        width: 100%;
+    }
+     .Project__BTN__Container{
+         display: none;
+     }
+}

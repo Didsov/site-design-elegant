@@ -1,0 +1,35 @@
+footer{
+    background-color: #efeeef;
+}
+.Footer__Container{
+    margin: 0 auto ;
+    max-width: 50rem;
+    padding: 0 0.9375rem;
+    display: flex;
+    flex-direction: row;
+}
+.Footer__Container p{
+    font-family: 'Open Sans';
+    font-size: 1rem;
+    font-weight: 300;
+    color: #505d68;
+    margin: 2.5rem 0 2rem 0;
+}
+.Footer__Container p:first-child{
+    width: 68.75%;
+}
+
+@media (max-width: 750px){
+.Footer__Container{
+    flex-direction: column;
+    padding: 20px 5px;
+}
+.Footer__Container p{
+    margin: 0px;
+    width: 100%;
+    font-size: 16pt;
+}
+.Footer__Container p:first-child{
+    width: 100%;
+}
+}
